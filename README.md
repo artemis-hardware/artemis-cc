@@ -1,5 +1,5 @@
 # Artemis-cc
-This repository contains software that was created when developing a hardware platform for the [ArtEmis project](https://www.artemisproject.eu/). The repository has code for two platforms, one based on a Raspberry PI 4 and one based on the radio-sensors S2 controller.
+This repository contains software that was created when developing a hardware platform for the [ArtEmis project](https://www.artemisproject.eu/). The repository has code for two platforms, one based on a Raspberry PI 4 and one based on the radio-sensors S2 controller. It was created by [Axel Karlsson](github.com/acke-k) and [Frej Larssen](github.com/frejlarssen) for their bachelor thesis.
 ## Raspberry pi
 This platform is based on a Raspberry PI 4 and a [simcom 7080 hat by WaveShare.](https://www.waveshare.com/sim7080g-cat-m-nb-iot-hat.htm).
 The hat is mounted on and connected via a micro USB cable. The software can be found in the directory artemis-rpi.
