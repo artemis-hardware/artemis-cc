@@ -40,5 +40,5 @@ make BOARD=avr-rss2 PORT=<port where the board is connected> flash
 ```
 The application can communicate with the computer via a shell running over the serial port. There are many programs that can do this, we used minicom when developing this application. After configuring the communication MQTT messages can be sent with the following command:
 ```
--h <url of broker> -p <port> -t <topic of message> -m <message>
+<url of broker> <port> <topic of message> <message>
 ```
