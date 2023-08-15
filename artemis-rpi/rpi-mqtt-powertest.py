@@ -118,11 +118,10 @@ def send_mqtt(host, port, topic, message):
     power_down(power_key)
 
 def testloop:
-    msg = 1
     host = broker.ssvl.kth.se
     port = 1883
     topic = artemis_test
-    for i in 0..100:
+    for msg in range(0, 100):
         print('sending: ' + msg)
         send_mqtt(host, port, topic, msg)
         print(sent)
