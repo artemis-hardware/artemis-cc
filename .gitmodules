@@ -1,3 +1,6 @@
 [submodule "artemis-rs"]
 	path = artemis-rs
 	url = https://github.com/artemis-hardware/MQTTSN-Publisher
+[submodule "MQTTSN-Publisher"]
+	path = MQTTSN-Publisher
+	url = https://github.com/artemis-hardware/MQTTSN-Publisher
