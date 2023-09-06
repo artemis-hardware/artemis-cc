@@ -1,0 +1,6 @@
+VDD: 5,08
+Cur: 500-600 ibland 900 mA
+mAh: 0,44
+Dislay Time: 4:59
+
+real time: 4:59

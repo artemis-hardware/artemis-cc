@@ -1,0 +1,168 @@
+topic everyMinute 0 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'\n'
+b'to> > > eW> yMZ> > >  0> \r\n'
+b'> '
+topic everyMinute 1 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'topic everyMinute 1 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048512E500\r\n'
+b'Register topic 1157 for "everyMinute"\n'
+b'mqpub: publish  1 to everyMinute: "1"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048512E600\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic everyMinute 2 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'topic everyMinute 2 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048612E700\r\n'
+b'Register topic 1158 for "everyMinute"\n'
+b'mqpub: publish  1 to everyMinute: "2"\n'
+topic everyMinute 3 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048612E800\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic everyMinute 3 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic everyMinute 4 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048712E900\r\n'
+b'Register topic 1159 for "everyMinute"\n'
+b'mqpub: publish  1 to everyMinute: "3"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048712EA00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic everyMinute 4 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048812EB00\r\n'
+b'Register topic 1160 for "everyMinute"\n'
+b'mqpub: publish  1 to everyMinute: "4"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048812EC00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic everyMinute 5 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 0
+b'topic everyMinute 5 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048912ED00\r\n'
+b'Register topic 1161 for "everyMinute"\n'
+b'mqpub: publish  1 to everyMinute: "5"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048912EE00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic everyMinute 6 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'topic everyMinute 6 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048A12EF00\r\n'
+b'Register topic 1162 for "everyMinute"\n'
+b'mqpub: publish  1 to everyMinute: "6"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048A12F000\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic everyMinute 7 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 0
+b'\r\n'
+b'PrimaryDns: 130.244.127.161\r\n'
+b'SecondaryDns: 130.244.127.169\r\n'
+b'\r\n'
+b'OK\r\n'
+b'\rOK\r\r+CDNSGIP: 1,"lab-pc.ssvl.kth.se","192.16.125.232"\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'mqpub: register KTH/avr-rss2/fcc23d000000381f/sensors\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B048B12F100\r\n'
+b'Register topic 1163 for "KTH/avr-rss2/fcc23d000000381f/sensors"\n'
+b'mqpub: publish  179 to KTH/avr-rss2/fcc23d000000381f/sensors: "[{"bn":"urn:dev:mac:fcc23d000000381f;","bt":1692622361.942},{"n":"seq_no","v":12},{"n":"mqtt_sn;stats;reset","u":"count","v":84},{"n":"mqtt_sn;stats;commreset","u":"count","v":0}]"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D048B12F200\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'topic everyMinute 7> R'
+topic everyMinute 8 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 22
+b'\r\n'
+b'PrimaryDns: 130.244.127.161\r\n'
+b'SecondaryDns: 130.244.127.169\r\n'
+b'\r\n'
+b'OK\r\n'
+b'\rOK\r\r+CDNSGIP: 1,"0.se.pool.ntp.org","91.209.0.19"\r\n'
+b'topic everyMinute 8 1\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic everyMinute 9 1
+
+len(payload): 22
+out waiting before: 0
+out waiting after: 0
+b'topic eve> 5> nute 9 1\r\n'
+b'shell: command not found: nute\n'
+b'> '

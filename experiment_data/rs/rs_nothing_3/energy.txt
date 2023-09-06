@@ -1,0 +1,6 @@
+VDD: 5.07
+Cur: 0-7 mA
+2 mAh
+display time: 1.40
+
+real time 10 min

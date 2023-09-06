@@ -1,0 +1,4 @@
+VDD: 5.08-5.11 V
+Cur: 450-600 mA (oftast 450, gäller alla tre omgångar)
+mAh: 78 mAh
+tid: 10:00

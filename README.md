@@ -59,3 +59,6 @@ python3 sensor-rs2.py <port where the board is connected> <baudrate>
 The rs2 communicates with the baudrate 115200.
 
 Uncomment function calls in [sensor-rs2.py](/sensor-rs2.py) to send messages in different ways (see code documentation).
+
+## Experiment data
+[experiment_data](/experiment_data/) contains data from the tests that were part of the bachelor thesis by Axel Karlsson and Frej Larssen.

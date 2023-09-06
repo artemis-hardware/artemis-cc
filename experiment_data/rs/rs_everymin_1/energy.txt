@@ -1,0 +1,6 @@
+VDD: 5.08
+Cur: 0 typ alltid
+mAh: 2 mAh
+display time: 1:39
+
+real time: 10 försök (10 min)

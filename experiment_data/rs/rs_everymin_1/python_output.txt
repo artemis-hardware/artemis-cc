@@ -1,0 +1,15 @@
+topic everyMinute 0 1
+SEND OK
+topic everyMinute 1 1
+SEND OKtopic everyMinute 2 1
+topic everyMinute 3 1
+SEND OK
+topic everyMinute 4 1
+SEND OK
+topic everyMinute 5 1
+SEND OK
+topic everyMinute 6 1
+topic everyMinute 7 1
+topic everyMinute 8 1
+topic everyMinute 9 1
+SEND OK

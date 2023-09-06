@@ -1,0 +1,6 @@
+VDD: 5,08
+Cur: typ 0
+mAh: 3
+Display time: 1:58
+
+real time: 10:13

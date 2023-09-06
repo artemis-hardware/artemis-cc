@@ -1,0 +1,6 @@
+VDD: 5.08
+Cur: 0-130 mA
+2 mAh
+1:15
+
+real time: 10 min

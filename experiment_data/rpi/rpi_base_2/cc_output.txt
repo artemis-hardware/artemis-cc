@@ -1,0 +1,42 @@
+simcom starting
+startup done
+Checking if simcom started
+SOM7080G responded: AT
+OK
+
+Select LTE mode
+Response: AT+CNMP=38
+OK
+
+Activate network bearing
+Response: AT+CNACT=0,1
+OK
+
++APP PDP: 0,ACTIVE
+
+Set TCP index
+Response: AT+CACID=0
+OK
+
+Set broker
+Response: AT+SMCONF="URL","broker.ssvl.kth.se","1883"
+OK
+
+Set keeptime
+Response: AT+SMCONF="KEEPTIME",60
+OK
+
+Set cleanss
+Response: AT+SMCONF="CLEANSS",1
+OK
+
+Connect to server
+Response: AT+SMCONN
+OK
+
+Disconnect
+Response: AT+SMDISC
+OK
+
+SIM7080X is loging off:
+Good bye

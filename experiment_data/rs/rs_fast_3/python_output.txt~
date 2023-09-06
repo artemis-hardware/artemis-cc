@@ -1,0 +1,1492 @@
+topic fast 0 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'to> c V> > > 0> R'
+topic fast 1 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topic fast 1 1\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 2 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topic2> st>  1\r\n'
+b'shell: command not found: 1\n'
+b'> '
+topic fast 3 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topi,2> st 3 1\r\n'
+b'shell: command not found: st\n'
+b'> '
+topic fast 4 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topic fast 4 L> '
+topic fast 5 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'to> > > fast 5 1\r\n'
+b'shell: command not found: fast\n'
+b'> '
+topic fast 6 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topic fast \x13> R'
+topic fast 7 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topic fast 7 1\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 8 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 15
+b'topic fast 8 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B042F123600\r\n'
+b'Register topic 1071 for "fast"\n'
+b'mqpub: publish  1 to fast: "8"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D042F123700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 9 1
+
+len(payload): 15
+out waiting before: 0
+out waiting after: 0
+b'topic fast 9 1\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0430123800\r\n'
+b'Register topic 1072 for "fast"\n'
+b'mqpub: publish  1 to fast: "9"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0430123900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 10 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topZ,2> > >  10 2\r\n'
+b'shell: command not found: 10\n'
+b'> '
+topic fast 11 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast> > \x02> R'
+topic fast 12 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 12 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 13 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 13 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+topic fast 14 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0431123A00\r\n'
+b'Register topic 1073 for "fast"\n'
+b'mqpub: publish  2 to fast: "13"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0431123B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 14 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0432123C00\r\n'
+b'Register topic 1074 for "fast"\n'
+b'mqpub: publish  2 to fast: "14"\n'
+topic fast 15 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0432123D00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 15 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0433123E00\r\n'
+b'Register topic 1075 for "fast"\n'
+b'mqpub: publish  2 to fast: "15"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0433123F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 16 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 16 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 17 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0434124000\r\n'
+b'Register topic 1076 for "fast"\n'
+b'mqpub: publish  2 to fast: "16"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0434124100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 17 2> '
+topic fast 18 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 18 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0435124200\r\n'
+b'Register topic 1077 for "fast"\n'
+b'mqpub: publish  2 to fast: "18"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0435124300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 19 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 19 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0436124400\r\n'
+b'Register topic 1078 for "fast"\n'
+b'mqpub: publish  2 to fast: "19"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0436124500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 20 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 20 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 21 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0437124600\r\n'
+b'Register topic 1079 for "fast"\n'
+b'mqpub: publish  2 to fast: "20"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0437124700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 21 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0438124800\r\n'
+b'Register topic 1080 for "fast"\n'
+b'mqpub: publish  2 to fast: "21"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0438124900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 22 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 22 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+topic fast 23 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0439124A00\r\n'
+b'Register topic 1081 for "fast"\n'
+b'mqpub: publish  2 to fast: "22"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0439124B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast > \x02> R'
+topic fast 24 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 24 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 25 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 25 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B043A124C00\r\n'
+b'Register topic 1082 for "fast"\n'
+b'mqpub: publish  2 to fast: "25"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D043A124D00\r\n'
+topic fast 26 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 26 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B043B124E00\r\n'
+b'Register topic 1083 for "fast"\n'
+b'mqpub: publish  2 to fast: "26"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D043B124F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 27 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 27 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B043C125000\r\n'
+b'Register topic 1084 for "fast"\n'
+b'mqpub: publish  2 to fast: "27"\n'
+topic fast 28 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D043C125100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 28 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B043D125200\r\n'
+b'Register topic 1085 for "fast"\n'
+b'mqpub: publish  2 to fast: "28"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D043D125300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 29 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 29 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B043E125400\r\n'
+b'Register topic 1086 for "fast"\n'
+b'mqpub: publish  2 to fast: "29"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D043E125500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 30 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 30 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B043F125600\r\n'
+b'Register topic 1087 for "fast"\n'
+b'mqpub: publish  2 to fast: "30"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D043F125700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 31 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast > \x02> R'
+topic fast 32 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 32 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 33 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 33 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 34 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0440125800\r\n'
+b'Register topic 1088 for "fast"\n'
+b'mqpub: publish  2 to fast: "33"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0440125900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 34 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0441125A00\r\n'
+b'Register topic 1089 for "fast"\n'
+b'mqpub: publish  2 to fast: "34"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0441125B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 35 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 35 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 36 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0442125C00\r\n'
+b'Register topic 1090 for "fast"\n'
+b'mqpub: publish  2 to fast: "35"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0442125D00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 36 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0443125E00\r\n'
+b'Register topic 1091 for "fast"\n'
+b'mqpub: publish  2 to fast: "36"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0443125F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 37 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topi,2> st 37 2\r\n'
+b'shell: command not found: st\n'
+b'> '
+topic fast 38 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 38 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0444126000\r\n'
+b'Register topic 1092 for "fast"\n'
+b'mqpub: publish  2 to fast: "38"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0444126100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 39 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 39 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0445126200\r\n'
+b'Register topic 1093 for "fast"\n'
+b'mqpub: publish  2 to fast: "39"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0445126300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 40 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 40 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0446126400\r\n'
+b'Register topic 1094 for "fast"\n'
+b'mqpub: publish  2 to fast: "40"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0446126500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 41 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 41 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0447126600\r\n'
+b'Register topic 1095 for "fast"\n'
+b'mqpub: publish  2 to fast: "41"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0447126700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 42 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 42 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 43 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0448126800\r\n'
+b'Register topic 1096 for "fast"\n'
+b'mqpub: publish  2 to fast: "42"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0448126900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fa.\x17> > \x02> R'
+topic fast 44 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 44 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 45 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 45 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0449126A00\r\n'
+b'Register topic 1097 for "fast"\n'
+b'mqpub: publish  2 to fast: "45"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0449126B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 46 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 46 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B044A126C00\r\n'
+b'Register topic 1098 for "fast"\n'
+b'mqpub: publish  2 to fast: "46"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D044A126D00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 47 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 47 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B044B126E00\r\n'
+b'Register topic 1099 for "fast"\n'
+b'mqpub: publish  2 to fast: "47"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D044B126F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 48 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 48 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B044C127000\r\n'
+b'Register topic 1100 for "fast"\n'
+b'mqpub: publish  2 to fast: "48"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D044C127100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 49 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 49 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B044D127200\r\n'
+b'Register topic 1101 for "fast"\n'
+b'mqpub: publish  2 to fast: "49"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D044D127300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 50 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 50 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B044E127400\r\n'
+b'Register topic 1102 for "fast"\n'
+b'mqpub: publish  2 to fast: "50"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D044E127500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 51 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 51 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B044F127600\r\n'
+b'Register topic 1103 for "fast"\n'
+b'mqpub: publish  2 to fast: "51"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D044F127700\r\n'
+topic fast 52 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 52 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0450127800\r\n'
+b'Register topic 1104 for "fast"\n'
+b'mqpub: publish  2 to fast: "52"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0450127900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 53 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 53 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0451127A00\r\n'
+b'Register topic 1105 for "fast"\n'
+b'mqpub: publish  2 to fast: "53"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0451127B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 54 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fX.\x17> > \x02> R'
+topic fast 55 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 55 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 56 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 56 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0452127C00\r\n'
+b'Register topic 1106 for "fast"\n'
+b'mqpub: publish  2 to fast: "56"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0452127D00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 57 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 57 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0453127E00\r\n'
+b'Register topic 1107 for "fast"\n'
+b'mqpub: publish  2 to fast: "57"\n'
+topic fast 58 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0453127F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 58 2> '
+topic fast 59 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 59 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0454128000\r\n'
+b'Register topic 1108 for "fast"\n'
+b'mqpub: publish  2 to fast: "59"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0454128100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 60 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 60 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0455128200\r\n'
+b'Register topic 1109 for "fast"\n'
+b'mqpub: publish  2 to fast: "60"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0455128300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 61 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 61 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0456128400\r\n'
+b'Register topic 1110 for "fast"\n'
+b'mqpub: publish  2 to fast: "61"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0456128500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 62 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 62 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0457128600\r\n'
+b'Register topic 1111 for "fast"\n'
+b'mqpub: publish  2 to fast: "62"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0457128700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 63 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic V> > > 63 &> '
+topic fast 64 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 64 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0458128800\r\n'
+b'Register topic 1112 for "fast"\n'
+b'mqpub: publish  2 to fast: "64"\n'
+topic fast 65 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0458128900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 65 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0459128A00\r\n'
+b'Register topic 1113 for "fast"\n'
+b'mqpub: publish  2 to fast: "65"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0459128B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 66 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 66 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B045A128C00\r\n'
+b'Register topic 1114 for "fast"\n'
+b'mqpub: publish  2 to fast: "66"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D045A128D00\r\n'
+topic fast 67 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 67 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B045B128E00\r\n'
+b'Register topic 1115 for "fast"\n'
+b'mqpub: publish  2 to fast: "67"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D045B128F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 68 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 68> R'
+topic fast 69 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topi,2> > t S\x02> \r\n'
+b'> '
+topic fast 70 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 70 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 71 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B045C129000\r\n'
+b'Register topic 1116 for "fast"\n'
+b'mqpub: publish  2 to fast: "70"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D045C129100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic V> > > 71 2\r\n'
+b'shell: command not found: 71\n'
+b'> '
+topic fast 72 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 72 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B045D129200\r\n'
+b'Register topic 1117 for "fast"\n'
+b'mqpub: publish  2 to fast: "72"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D045D129300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 73 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fX.\x17> > \x02> R'
+topic fast 74 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 74 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 75 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 75 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 76 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B045E129400\r\n'
+b'Register topic 1118 for "fast"\n'
+b'mqpub: publish  2 to fast: "75"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D045E129500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 76 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B045F129600\r\n'
+b'Register topic 1119 for "fast"\n'
+b'mqpub: publish  2 to fast: "76"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D045F129700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 77 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topZ,2> > > > 77 2> '
+topic fast 78 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 78 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0460129800\r\n'
+b'Register topic 1120 for "fast"\n'
+b'mqpub: publish  2 to fast: "78"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0460129900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 79 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 79 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 80 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0461129A00\r\n'
+b'Register topic 1121 for "fast"\n'
+b'mqpub: publish  2 to fast: "79"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0461129B00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 80 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0462129C00\r\n'
+b'Register topic 1122 for "fast"\n'
+b'mqpub: publish  2 to fast: "80"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0462129D00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 81 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 81 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B0463129E00\r\n'
+b'Register topic 1123 for "fast"\n'
+b'mqpub: publish  2 to fast: "81"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D0463129F00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 82 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 82 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046412A000\r\n'
+b'Register topic 1124 for "fast"\n'
+b'mqpub: publish  2 to fast: "82"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046412A100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 83 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 83 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046512A200\r\n'
+b'Register topic 1125 for "fast"\n'
+b'mqpub: publish  2 to fast: "83"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046512A300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 84 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 84 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046612A400\r\n'
+b'Register topic 1126 for "fast"\n'
+b'mqpub: publish  2 to fast: "84"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046612A500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 85 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 85 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r'
+topic fast 86 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046712A600\r\n'
+b'Register topic 1127 for "fast"\n'
+b'mqpub: publish  2 to fast: "85"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046712A700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 86 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046812A800\r\n'
+b'Register topic 1128 for "fast"\n'
+b'mqpub: publish  2 to fast: "86"\n'
+topic fast 87 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046812A900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 87 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046912AA00\r\n'
+b'Register topic 1129 for "fast"\n'
+b'mqpub: publish  2 to fast: "87"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046912AB00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 88 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topZ,2> > > > 88 2\r\n'
+b'shell: command not found: 88\n'
+b'> '
+topic fast 89 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 89 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046A12AC00\r\n'
+b'Register topic 1130 for "fast"\n'
+b'mqpub: publish  2 to fast: "89"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046A12AD00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 90 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 90 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+topic fast 91 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046B12AE00\r\n'
+b'Register topic 1131 for "fast"\n'
+b'mqpub: publish  2 to fast: "90"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046B12AF00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> topic fast 91 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046C12B000\r\n'
+b'Register topic 1132 for "fast"\n'
+b'mqpub: publish  2 to fast: "91"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046C12B100\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 92 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fast 92 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046D12B200\r\n'
+b'Register topic 1133 for "fast"\n'
+b'mqpub: publish  2 to fast: "92"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046D12B300\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 93 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topic fas\x17> > \x02> R'
+topic fast 94 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 94 2\r\n'
+b'shell: command not found: Rtopic\n'
+b'> '
+topic fast 95 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 95 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046E12B400\r\n'
+b'Register topic 1134 for "fast"\n'
+b'mqpub: publish  2 to fast: "95"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046E12B500\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 96 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 96 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B046F12B600\r\n'
+b'Register topic 1135 for "fast"\n'
+b'mqpub: publish  2 to fast: "96"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D046F12B700\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+topic fast 97 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'0218\r\n'
+b'> topic fast 97 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B047012B800\r\n'
+b'Register topic 1136 for "fast"\n'
+b'mqpub: publish  2 to fast: "97"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D047012B900\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 98 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 0
+b'topic fast 98 2\r\n'
+b'mqpub: Connect to [::ffff:192.16.125.232]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,6,192.16.125.232:10000\r\n'
+b'030500\r\n'
+b'MQTT-SN: Connect to gateway [lab-pc.ssvl.kth.se]:10000\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070B047112BA00\r\n'
+b'Register topic 1137 for "fast"\n'
+b'mqpub: publish  2 to fast: "98"\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,14,192.16.125.232:10000\r\n'
+b'070D047112BB00\r\n'
+b'\r> \r0, SEND OK\r\r+RECEIVE,0,4,192.16.125.232:10000\r\n'
+b'0218\r\n'
+b'> '
+topic fast 99 2
+
+len(payload): 16
+out waiting before: 0
+out waiting after: 16
+b'topi,2> > >  NN> R'

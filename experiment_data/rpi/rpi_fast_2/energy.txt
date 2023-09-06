@@ -1,0 +1,4 @@
+VDD: 5.1
+Cur: 500-600 mA
+mAh: 44
+display and real Time 5:00
