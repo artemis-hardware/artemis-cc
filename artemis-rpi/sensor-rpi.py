@@ -16,7 +16,7 @@ def send(topic, msg):
 	print('USB device: ', ser.port, '\ttopic: ', topic, '\tmessage: ', msg)
 
 if __name__ == '__main__':
-	usage_str = 'usage:\n\tsend <topic> <message>\n\tmany <topic> <number of sends> <seconds of sleep between sends>\n\tloop <topic> <number of messages> <sleep between messages>'
+	usage_str = 'usage:\n\tsend <topic> <message>\n\tmany <topic> <number of messages> <sleep between messages>\n\tloop <topic> <number of messages> <sleep between messages>'
 	if sys.argv[1] == 'send' and len(sys.argv) == 4:
 		topic = sys.argv[2]
 		msg = sys.argv[3]
