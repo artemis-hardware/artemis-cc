@@ -38,7 +38,7 @@ sensor-rpi.py loop <topic> <number of messages> <sleep between messages>
 Instructs the RPi with the radio to start an internal loop that publishes a number of messages with a delay between each. (Only one UART-message.)
 ## radio-sensors s2
 This platform is based on the [radio-sensors s2](http://radio-sensors.com/) controller (henceforth called rs2) and a sim7000G. The platform was originally developed by [Robert Olsson](https://github.com/herjulf) and [Peter Sjödin](https://github.com/posjodin) at KTH.
-The software is based on a fork of Riot OS by Peter Sjödin, which implements MQTT-SN on the platform. A simple application has been built using the API provided in the fork. The code that runs on the radio sensor node can be found in the [MQTTSN-Publisher](/MQTTSN-Publisher/) directory.
+The software is based on a fork of Riot OS by Peter Sjödin, which implements MQTT-SN on the platform. A simple application has been built using the API provided in the fork. The code that runs on the radio sensor node can be found in the `MQTTSN-Publisher` directory.
 ### Building
 The repository contains the correct version of Riot OS. To download it, go into the repo and run the commands
 ```
